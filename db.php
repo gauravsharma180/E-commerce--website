@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "root"; // Change this to your database username
-$password = ""; // Change this to your database password
+$username = "root"; 
+$password = ""; 
 $dbname = "ecommerce_db";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
