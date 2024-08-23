@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         exit();
     }
 
-    // Hash the password
+    // Hash  password
     $passwordHash = password_hash($password, PASSWORD_DEFAULT);
 
     // Prepare and execute the SQL statement
