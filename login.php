@@ -18,7 +18,7 @@ include 'db.php';
                 <li><a href="index.php">Home</a></li>
                 <li><a href="register.php">Register</a></li>
                 <li><a href="contact.php">Contact</a></li>
-                <li><a href="logout.php">logout</a></li>
+                
             </ul>
         </nav>
     </header>
