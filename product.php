@@ -7,7 +7,7 @@ if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
 
 include 'db.php';
 
-// The rest of your code for fetching product details and rendering the page
+// The rest of code for fetching product details and rendering the page
 $productId = intval($_GET['id']);
 $sql = "SELECT * FROM products WHERE id = $productId";
 $result = $conn->query($sql);
